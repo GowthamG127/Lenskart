@@ -1,0 +1,201 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11738243165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LensHooks.launchingBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Select a Men Eyeglass with lens type and lens package and add to the cart",
+        "description": "",
+        "id": "to-add-a-men-eyeglass-to-the-cart;select-a-men-eyeglass-with-lens-type-and-lens-package-and-add-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 449627,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LensHooks.closingBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69136899724,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of lenskart website",
+            "match": {
+              "location": "Lenskart.to_launch_the_url_of_lenskart_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1060923046,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouseover to the eyeglasses again move to men",
+            "match": {
+              "location": "Lenskart.mouseover_to_the_eyeglasses_again_move_to_men()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54193045416,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Mouseover to premium eyeglasses and click John Jacob in the Brand listed",
+            "match": {
+              "location": "Lenskart.mouseover_to_premium_eyeglasses_and_click_John_Jacob_in_the_Brand_listed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2717176546,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Mouseover to frame type and select Full Rim",
+            "match": {
+              "location": "Lenskart.mouseover_to_frame_type_and_select_Full_Rim()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7320252681,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Mouseover to frameshape and selct Aviator",
+            "match": {
+              "location": "Lenskart.mouseover_to_frameshape_and_selct_Aviator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8255010298,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select one eyeglass from the grid",
+            "match": {
+              "location": "Lenskart.select_one_eyeglass_from_the_grid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4269976166,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "A new tab will be open",
+            "match": {
+              "location": "Lenskart.a_new_tab_will_be_open()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22602165326,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Mouseover to select lenses button and click on it",
+            "match": {
+              "location": "Lenskart.mouseover_to_select_lenses_button_and_click_on_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1284378660,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "A screen will appears and select single vision as lens type",
+            "match": {
+              "location": "Lenskart.a_screen_will_appears_and_select_single_vision_as_lens_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399155,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Now the screen appears as select lens package",
+            "match": {
+              "location": "Lenskart.now_the_screen_appears_as_select_lens_package()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1767316554,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Scroll down and select Blue Thin as lens package",
+            "match": {
+              "location": "Lenskart.scroll_down_and_select_Blue_Thin_as_lens_package()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1283820030,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "In the next screen click the continue button",
+            "match": {
+              "location": "Lenskart.in_the_next_screen_click_the_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6375141218,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Billing Detais will be shown on the right side and get the total payable amount",
+            "match": {
+              "location": "Lenskart.billing_Detais_will_be_shown_on_the_right_side_and_get_the_total_payable_amount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To add a Men Eyeglass to the cart",
+    "description": "",
+    "id": "to-add-a-men-eyeglass-to-the-cart",
+    "keyword": "Feature",
+    "uri": "src/test/resources/lenskart.feature",
+    "tags": []
+  }
+]
